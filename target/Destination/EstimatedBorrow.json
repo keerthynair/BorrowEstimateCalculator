@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Calculate Borrow Estimate",
+        "description": "",
+        "id": "estimate-borrow-calculator;calculate-borrow-estimate;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113458482600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Estimate Borrow Calculator Page",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.user_is_on_estimate_borrow_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4874636500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters valid details as Application Type Single and Number of dependants 0 and Property you would like to buy Home to live in and Your annual income 80000 and Your annual other income 10000 and Monthly living expenses 100 and Current home loan monthly repayments 10 and Other loan monthly repayments 20 and Other monthly commitments 50 and Total credit card limits 50000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single",
+                  "offset": 46
+                },
+                {
+                  "val": "0",
+                  "offset": 78
+                },
+                {
+                  "val": "Home to live in",
+                  "offset": 115
+                },
+                {
+                  "val": "80000",
+                  "offset": 154
+                },
+                {
+                  "val": "10000",
+                  "offset": 189
+                },
+                {
+                  "val": "100",
+                  "offset": 223
+                },
+                {
+                  "val": "10",
+                  "offset": 268
+                },
+                {
+                  "val": "20",
+                  "offset": 305
+                },
+                {
+                  "val": "50",
+                  "offset": 338
+                },
+                {
+                  "val": "50000",
+                  "offset": 370
+                }
+              ],
+              "location": "EstimatedBorrowStepDefinition.user_enters_valid_details_as_application_type_and_number_of_dependants_and_property_you_would_like_to_buy_and_your_annual_income_and_your_annual_other_income_and_monthly_living_expenses_and_current_home_loan_monthly_repayments_and_other_loan_monthly_repayments_and_other_monthly_commitments_and_total_credit_card_limits(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132294300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks Work out how much I could borrow button",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.user_clicks_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5101010600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Estimate amount that user can borrow should be displayed",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.estimate_amount_that_user_can_borrow_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Click Start over to start fresh",
+        "description": "",
+        "id": "estimate-borrow-calculator;click-start-over-to-start-fresh;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 166842521400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Estimate Borrow Calculator Page",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.user_is_on_estimate_borrow_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2385884100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters valid details as Application Type Single and Number of dependants 6 and Property you would like to buy Home to live in and Your annual income 80000 and Your annual other income 10000 and Monthly living expenses 100 and Current home loan monthly repayments 10 and Other loan monthly repayments 20 and Other monthly commitments 50 and Total credit card limits 50000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single",
+                  "offset": 46
+                },
+                {
+                  "val": "6",
+                  "offset": 78
+                },
+                {
+                  "val": "Home to live in",
+                  "offset": 115
+                },
+                {
+                  "val": "80000",
+                  "offset": 154
+                },
+                {
+                  "val": "10000",
+                  "offset": 189
+                },
+                {
+                  "val": "100",
+                  "offset": 223
+                },
+                {
+                  "val": "10",
+                  "offset": 268
+                },
+                {
+                  "val": "20",
+                  "offset": 305
+                },
+                {
+                  "val": "50",
+                  "offset": 338
+                },
+                {
+                  "val": "50000",
+                  "offset": 370
+                }
+              ],
+              "location": "EstimatedBorrowStepDefinition.user_enters_valid_details_as_application_type_and_number_of_dependants_and_property_you_would_like_to_buy_and_your_annual_income_and_your_annual_other_income_and_monthly_living_expenses_and_current_home_loan_monthly_repayments_and_other_loan_monthly_repayments_and_other_monthly_commitments_and_total_credit_card_limits(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6118948100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks Start over link",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.user_clicks_start_over_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724678100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Entered values are removed and default values are displayed",
+            "match": {
+              "location": "EstimatedBorrowStepDefinition.user_entered_values_are_removed_and_default_values_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Estimate Borrow Calculator",
+    "description": "",
+    "id": "estimate-borrow-calculator",
+    "keyword": "Feature",
+    "uri": "EstimatedBorrow.feature"
+  }
+]
